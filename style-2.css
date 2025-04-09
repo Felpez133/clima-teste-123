@@ -1,0 +1,169 @@
+#titulo {
+    color:black;
+    font-size: 40px;
+    transition: transform 2.0s ease;
+    position: absolute;
+    top:150px;
+    left: 470px;
+}
+#titulo:hover {
+    transform: scale(1.8);
+}
+body {
+    background-color: rgb(147, 179, 207);
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+#b-1 {
+    background-color: rgb(0, 162, 255);
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 300px;
+    left: 110px;
+    border-radius: 100px;
+}
+
+#t-sao-paulo {
+    color:black;
+    position: absolute;
+    font-size: 40px;
+    top: 320px;
+    left:240px;
+}
+#info-1 {
+    color:black;
+    position: absolute;
+    top: 440px;
+    left:260px;
+    font-size: 23px;
+}
+#t-leme {
+    color:black;
+    position: absolute;
+    font-size: 40px;
+    top: 320px;
+    left:1050px;
+}
+#i-1-leme {
+    position: absolute;
+    font-size: 23px;
+    top: 440px;
+    left: 1030px;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#f-leme {
+    background-color: rgb(0, 162, 255);
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 300px;
+    left: 870px;
+    border-radius: 100px;
+}
+#s-leme {
+    color:black;
+    font-size: 23px;
+    position: absolute;
+    top: 500px;
+    left: 1010px;
+}
+#s-sp {
+    color:black;
+    font-size: 23px;
+    position: absolute;
+    top: 500px;
+    left:245px;
+}
+#clima {
+    position: absolute;
+    font-size: 233px;
+    top: -300px;
+    left: 970px;
+    animation: crescer 2.6s ease-out forwards;
+    transform: scale(0);
+}
+@keyframes crescer {
+    to {
+        transform: scale(1.5);
+    }
+    
+}
+#h-leme {
+    position: absolute;
+    font-size: 23px;
+    top: 560px;
+    left: 1050px;
+}
+#h-sp {
+    position: absolute;
+    font-size: 23px;
+    top: 560px;
+    left: 270px;
+}
+#v-sp {
+    position: absolute;
+    font-size: 23px;
+    top: 620px;
+    left: 260px;
+}
+#v-leme {
+    position: absolute;
+    font-size: 23px;
+    top: 620px;
+    left: 1050px;
+}
+#nuvem-1 {
+    position: absolute;
+    top: 300px;
+    color: white;
+    animation: andar-1 3s ease-in-out infinite alternate;
+    width: 150px;
+    height: 150px;
+}
+@keyframes andar-1 {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(1420px);
+    }
+}
+#nuvem-2 {
+    position: absolute;
+    top:480px;
+    left: 60px;
+    color: white;
+    animation: andar-2 4s ease-in-out infinite alternate;
+    width: 150px;
+    height: 150px;
+}
+@keyframes andar-2 {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(1060px);
+    }
+}
+#nuvem-3 {
+    position: absolute;
+    top:700px;
+    left: 100px;
+    color:white;
+    animation: andar-3 2s ease-in-out infinite alternate;
+    width: 150px;
+    height: 150px;
+}
+@keyframes andar-3 {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(800px);
+    }
+}
